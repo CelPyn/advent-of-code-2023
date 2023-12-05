@@ -11,7 +11,7 @@ def read_input(path):
 if __name__ == '__main__':
     lines = read_input("inputs/one.txt")
     start = datetime.datetime.now()
-    result = puzzle_two.solve(lines)
+    result = puzzle_one.solve(lines)
     end = datetime.datetime.now()
     delta = end - start
     print(f'Result: {result}')
